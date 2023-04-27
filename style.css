@@ -1,0 +1,59 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: aliceblue;
+    overflow: hidden;
+}
+
+img {
+    border-radius: 55%;
+    border: 2px solid;
+}
+
+footer {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+}
+
+footer hr {
+    width: 95%;
+    background-color: white;
+}
+
+footer sub {
+    position: absolute;
+    right: 50%;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+}
+
+a:hover {
+    color: red;
+}
+
+
+.icons {
+    filter: invert(1);
+    margin-right: 15px;
+
+}
+
+ul {
+    display: grid;
+    grid-template-columns: max-content;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    
+}
+
+.social {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
