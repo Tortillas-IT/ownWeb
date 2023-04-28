@@ -35,6 +35,13 @@ a:hover {
     color: red;
 }
 
+sub {
+text-decoration: underline;
+}
+
+.bio {
+    display: inline-block;
+}
 
 .icons {
     filter: invert(1);
