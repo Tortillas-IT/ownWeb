@@ -9,6 +9,14 @@ img {
     border: 2px solid;
 }
 
+h1 {
+    margin-bottom: 2px;
+}
+
+.bio p {
+    margin-top: 2px;
+}
+
 footer {
     position: absolute;
     bottom: 30px;
