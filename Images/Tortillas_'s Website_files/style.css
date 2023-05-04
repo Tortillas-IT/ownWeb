@@ -1,23 +1,32 @@
 body {
     font-family: 'Lato', sans-serif;
     overflow-x: hidden;
+
 }
 
-.dark {
+.dark-background {
     background-color: #323232;
+
+}
+
+.dark-mode {
+    color: aliceblue;
+    filter: invert(1);
+}
+
+.dark-mode a {
     color: aliceblue;
 }
 
-.dark a {
-    color: aliceblue;
-}
-
-.white {
+.white-background {
     background-color: white;
+}
+
+.white-mode {
     color: black;
 }
 
-.white a {
+.white-mode a {
     color: black;
 }
 
@@ -42,14 +51,6 @@ h1 {
 
 .bio p {
     margin-top: 2px;
-}
-
-.pink-dark {
-    color: #FFB6C1;
-}
-
-.pink-white {
-    color: #FF69B4;
 }
 
 footer {
@@ -85,14 +86,9 @@ text-decoration: underline;
     display: inline-block;
 }
 
-.icons-dark {
+.icons {
     margin-right: 15px;
-    filter: invert(1);
 
-}
-
-.icons-white {
-    margin-right: 15px;
 }
 
 ul {
