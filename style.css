@@ -1,6 +1,10 @@
+html{
+    height: 100%;
+}
+
 body {
     font-family: 'Lato', sans-serif;
-    overflow-x: hidden;
+    height: calc(100% - 16px);
 }
 
 .dark {
@@ -19,6 +23,12 @@ body {
 
 .white a {
     color: black;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 img {
@@ -53,19 +63,16 @@ h1 {
 }
 
 footer {
-    position: absolute;
-    bottom: 30px;
+    height: 30px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer hr {
     width: 95%;
     background-color: white;
-}
-
-footer sub {
-    position: absolute;
-    right: 50%;
 }
 
 a {
