@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="preconnect" href="ttps://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
@@ -13,15 +14,19 @@
     </head> 
     <body class="dark flex">
         <div class="Corpo">
-            <img src="Images/moon.gif" class="switch" id="moon" onclick="darkLight()" style="display: block;">
-            <img src="Images/sun.gif" class="switch" id="sun" onclick="darkLight()" style="display: block;">
+            <div class="header">
+                <span class="material-symbols-outlined" class="switch" id="moon" onclick="darkLight()" style="display: none;">
+                    dark_mode
+                </span>
+                <span class="material-symbols-outlined" class="switch" id="sun" onclick="darkLight()" style="display: block;">
+                    sunny
+                </span>
+            </div>
             <center>
                 <img src="Images/logo2.jpeg" width="17%" style="margin-top: 22px" title="liccardorosario_">
                 <h1 style="font-size: 55px; margin-top: 4px;">Hi! I'm Tortillas_ and this is my website.</h1>
                 <div class="bio">
-                    <p>I'm a newbie dev specialized in: </p>
-                </div>
-                <div class="bio">
+                    <p style="margin-right: 4px;">I'm a newbie dev specialized in:</p>
                     <p class="pink-dark">C++ HTML CSS</p>
                 </div>
             </center>
@@ -35,7 +40,7 @@
                 <li class="social">
                     <a class="icon-text" href="https://discordapp.com/users/803674923846467637/" target="_blank">
                         <img src="Images/discord.svg" class="icons-dark">
-                        <p>Tortillas_#1760</p></a>
+                        <p>tortillas_</p></a>
                 </li>
                     </a>
                 <li class="social">
@@ -54,7 +59,10 @@
         </div>
         <footer>
             <hr size="4">
-            <a href="https://github.com/Tortillas-IT/ownWeb"><sub style="color: grey;">Source code</sub></a>
+            <div style="display: flex;">
+                <a href="https://github.com/Tortillas-IT/ownWeb" style="color: grey; margin-right:4px;"><sub>Source code </sub></a>
+                <sub id="lukaku" style="color: grey;">Alpha</sub>
+            </div>
         </footer>
     </body>
 </html>

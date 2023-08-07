@@ -6,6 +6,11 @@ body {
     font-family: 'Lato', sans-serif;
     height: calc(100% - 16px);
 }
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
 
 .flex{
     display: flex;
@@ -32,8 +37,10 @@ h1 {
     cursor: pointer;
 }
 
-.bio p {
+.bio {
     margin-top: 2px;
+    display: flex;
+    justify-content: center;
 }
 
 footer {
@@ -58,12 +65,8 @@ a:hover {
     color: red;
 }
 
-sub {
-text-decoration: underline;
-}
-
-.bio {
-    display: inline-block;
+sub:not(sub[id="lukaku"]){
+    text-decoration: underline;
 }
 
 ul {
@@ -80,4 +83,22 @@ ul {
     display: flex;
     flex-direction: row;
 }
+
+.material-symbols-outlined {
+    user-select: none;
+    cursor: pointer;
+    font-size: 44px;
+    margin-right: 7px;
+}
+
+#sun, #moon{
+    transform: scale(1) rotate(0);
+    transition: transform 150ms;
+}
+
+#sun:hover, #moon:hover{
+    transform: scale(1.1) rotate(22deg);
+
+}
+
 
