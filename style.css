@@ -7,24 +7,6 @@ body {
     height: calc(100% - 16px);
 }
 
-.dark {
-    background-color: #323232;
-    color: aliceblue;
-}
-
-.dark a {
-    color: aliceblue;
-}
-
-.white {
-    background-color: white;
-    color: black;
-}
-
-.white a {
-    color: black;
-}
-
 .flex{
     display: flex;
     flex-direction: column;
@@ -52,14 +34,6 @@ h1 {
 
 .bio p {
     margin-top: 2px;
-}
-
-.pink-dark {
-    color: #FFB6C1;
-}
-
-.pink-white {
-    color: #FF69B4;
 }
 
 footer {
@@ -90,16 +64,6 @@ text-decoration: underline;
 
 .bio {
     display: inline-block;
-}
-
-.icons-dark {
-    margin-right: 15px;
-    filter: invert(1);
-
-}
-
-.icons-white {
-    margin-right: 15px;
 }
 
 ul {

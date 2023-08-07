@@ -8,18 +8,18 @@ function darkLight() {
         moon.style.display = 'block'
         NumImg=Img.length
         for(let i=0;i<NumImg;i++){
-            Img[0].className = "icons-white"
+            Img[0].className = "icons-light"
         }
-        document.getElementsByClassName("dark")[0].className="white"
+        document.getElementsByClassName("dark")[0].className="light flex"
     }
     else {
-        Img = document.getElementsByClassName("icons-white");
+        Img = document.getElementsByClassName("icons-light");
         sun.style.display = 'block'
         moon.style.display = 'none'
         NumImg=Img.length
         for(let i=0;i<NumImg;i++){
             Img[0].className = "icons-dark"
         }
-        document.getElementsByClassName("white")[0].className="dark"
+        document.getElementsByClassName("light")[0].className="dark flex"
     }
 }

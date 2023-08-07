@@ -1,0 +1,17 @@
+.dark {
+    background-color: #323232;
+    color: aliceblue;
+}
+
+.dark a {
+    color: aliceblue;
+}
+
+.pink-dark {
+    color: #FFB6C1;
+}
+
+.icons-dark {
+    margin-right: 15px;
+    filter: invert(1);
+}
