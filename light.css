@@ -14,3 +14,7 @@
 .icons-light {
     margin-right: 15px;
 }
+
+.icons-light:hover {
+    color: red;
+}

@@ -15,3 +15,7 @@
     margin-right: 15px;
     filter: invert(1);
 }
+
+.icons-dark:hover {
+    color: red;
+}

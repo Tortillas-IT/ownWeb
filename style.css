@@ -61,10 +61,6 @@ a {
     display: flex;
 }
 
-img:hover {
-    color: red;
-}
-
 sub:not(sub[id="lukaku"]){
     text-decoration: underline;
 }
