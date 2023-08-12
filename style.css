@@ -61,7 +61,7 @@ a {
     display: flex;
 }
 
-a:hover {
+img:hover {
     color: red;
 }
 
