@@ -11,6 +11,7 @@ function darkLight() {
             Img[0].className = "icons-light"
         }
         document.getElementsByClassName("dark")[0].className="light flex"
+        document.getElementsByClassName("pink-dark")[0].className="pink-light"
     }
     else {
         Img = document.getElementsByClassName("icons-light");
@@ -21,5 +22,6 @@ function darkLight() {
             Img[0].className = "icons-dark"
         }
         document.getElementsByClassName("light")[0].className="dark flex"
+        document.getElementsByClassName("pink-light")[0].className="pink-dark"
     }
 }
